@@ -4,6 +4,7 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center font-serif">
       <Link href="/navigation-menu-1">Navigation menu 1</Link>
+      <Link href="/landing-page-reveal-1">Landing page reveal 1</Link>
     </div>
   );
 }
