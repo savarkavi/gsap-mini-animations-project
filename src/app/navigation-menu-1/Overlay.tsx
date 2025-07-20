@@ -27,7 +27,7 @@ const Overlay = () => {
         ease: "power4.inOut",
         duration: 1,
       })
-      .to(".menu-item", { top: 0, stagger: 0.1 }, "-=0.3");
+      .to(".menu-item", { top: 0, stagger: 0.1 }, "-=0.5");
   });
 
   const handleOverlayOpen = () => {
