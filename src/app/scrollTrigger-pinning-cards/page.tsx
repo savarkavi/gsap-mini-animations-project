@@ -45,9 +45,13 @@ const Page = () => {
             Connect wallet
           </p>
         </div>
-        <h1 className="text-stroke absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[12rem] uppercase">
-          Roadmap.
-        </h1>
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+          <h1 className="text-stroke text-[12rem] uppercase">Roadmap.</h1>
+          <div className="flex animate-bounce flex-col items-center gap-2 text-xl">
+            <p>Scroll</p>
+            <p>↓</p>
+          </div>
+        </div>
       </div>
       <Cards />
     </div>
