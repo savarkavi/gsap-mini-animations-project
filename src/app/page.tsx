@@ -12,6 +12,7 @@ export default function Home() {
         Scroll trigger pinning cards
       </Link>
       <Link href="/scroll-animation-1">Scroll animation 1</Link>
+      <Link href="/scroll-animation-2">Scroll animation 2</Link>
     </div>
   );
 }
